@@ -10,11 +10,17 @@ def opening_function():
     """
     print(colored(
         "Welcome to Random Madlibs.\n" +
-        "Please select the theme of your madlibs:\n" +
-        "Type 1 for Instructions for the Babysiter.\n"
-        "Type 2 for Going to the doctor.\n"
-        "Type 3 for Bats are so cool.\n",
+        "Please select the theme of your madlibs:\n",
         "yellow", attrs=["bold"]))
+    print(colored(
+        "Type 1 for Instructions for the babysitter.\n",
+        "green", attrs=["bold"]))
+    print(colored(
+        "Type 2 for Going to the doctor.\n",
+        "blue", attrs=["bold"]))
+    print(colored(
+        "Type 3 for Bats are so cool.\n",
+        "magenta", attrs=["bold"]))
     main_choice()
 
 
@@ -23,12 +29,13 @@ def madlibs01():
     Madlibs theme number 1
     """
     print(
-        colored("Instructions for the Babysiter")
+        colored("Instructions for the babysitter",
+                "green", attrs=["bold"])
     )
     adjective11 = input(colored("adjective:\n", "blue", attrs=["bold"]))
     plural_nou11 = input(colored("plural noun:\n", "blue", attrs=["bold"]))
-    plural_nou12 = input(colored("A plural noun:\n", "blue", attrs=["bold"]))
-    plural_nou13 = input(colored("more plural noun:\n", "blue", attrs=["bold"]))
+    plural_nou12 = input(colored("plural noun:\n", "blue", attrs=["bold"]))
+    plural_nou13 = input(colored("plural noun:\n", "blue", attrs=["bold"]))
     plural_nou14 = input(colored("A plural noun:\n", "blue", attrs=["bold"]))
     adverb11 = input(colored("An adverb:\n", "blue", attrs=["bold"]))
     noun11 = input(colored("One noun:\n", "blue", attrs=["bold"]))
@@ -36,35 +43,35 @@ def madlibs01():
 
     if adjective11.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif plural_nou11.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif plural_nou12.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif plural_nou13.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif plural_nou14.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif adverb11.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif noun11.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     elif noun12.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
     else:
         madlibs1 = print(colored(
@@ -85,11 +92,12 @@ def madlibs02():
     Madlibs theme number 2
     """
     print(
-        colored("Going to the doctor")
+        colored("Going to the doctor",
+                "blue", attrs=["bold"])
     )
     adjective21 = input(colored("An adjective:\n", "blue", attrs=["bold"]))
     adjective22 = input(colored("An adjective:\n", "blue", attrs=["bold"]))
-    adjective23 = input(colored("Another adjective:\n", "blue", attrs=["bold"]))
+    adjective23 = input(colored("more adjective:\n", "blue", attrs=["bold"]))
     adjective24 = input(colored("Adjective please:\n", "blue", attrs=["bold"]))
     adjective25 = input(colored("Adjective again:\n", "blue", attrs=["bold"]))
     place11 = input(colored("A place:\n", "blue", attrs=["bold"]))
@@ -103,55 +111,55 @@ def madlibs02():
 
     if adjective21.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif adjective22.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif adjective23.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif adjective24.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif adjective25.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif place11.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif pieceofcloth21.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif bodypart21.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif bodypart22.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif bodypart23.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif noun21.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif noun22.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     elif place22.isalpha() is False:
         pprint(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
     else:
         madlibs2 = print(colored(
@@ -175,7 +183,8 @@ def madlibs03():
     Madlibs theme number 3
     """
     print(
-        colored("Bats are so cool.")
+        colored("Bats are so cool.",
+                "magenta", attrs=["bold"])
     )
     color31 = input(colored("A color:\n", "blue", attrs=["bold"]))
     adjective31 = input(colored("An adjective:\n", "blue", attrs=["bold"]))
@@ -189,39 +198,39 @@ def madlibs03():
 
     if color31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif adjective31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif time31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif adjective32.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif place31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif food31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif food32.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif verb31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     elif noun31.isalpha() is False:
         print(colored(
-            "Please make sure you input only words", "red", attrs=["bold"]))
+            "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
     else:
         madlibs3 = print(colored(
@@ -250,7 +259,9 @@ def main_choice():
     elif selection == 3:
         madlibs03()
     else:
-        print("Invalid selection, please try again")
+        print(
+            colored("Invalid selection, please try again", "green")
+        )
         main_choice()
 
 
