@@ -25,14 +25,14 @@ def madlibs01():
     print(
         colored("Instructions for the Babysiter")
     )
-    adjective11 = input(colored("adjective: ", "blue", attrs=["bold"]))
-    plural_nou11 = input(colored("plural noun: ", "blue", attrs=["bold"]))
-    plural_nou12 = input(colored("A plural noun: ", "blue", attrs=["bold"]))
-    plural_nou13 = input(colored("more plural noun: ", "blue", attrs=["bold"]))
-    plural_nou14 = input(colored("A plural noun: ", "blue", attrs=["bold"]))
-    adverb11 = input(colored("An adverb: ", "blue", attrs=["bold"]))
-    noun11 = input(colored("One noun: ", "blue", attrs=["bold"]))
-    noun12 = input(colored("Another noun: ", "blue", attrs=["bold"]))
+    adjective11 = input(colored("adjective:\n", "blue", attrs=["bold"]))
+    plural_nou11 = input(colored("plural noun:\n", "blue", attrs=["bold"]))
+    plural_nou12 = input(colored("A plural noun:\n", "blue", attrs=["bold"]))
+    plural_nou13 = input(colored("more plural noun:\n", "blue", attrs=["bold"]))
+    plural_nou14 = input(colored("A plural noun:\n", "blue", attrs=["bold"]))
+    adverb11 = input(colored("An adverb:\n", "blue", attrs=["bold"]))
+    noun11 = input(colored("One noun:\n", "blue", attrs=["bold"]))
+    noun12 = input(colored("Another noun:\n", "blue", attrs=["bold"]))
 
     if adjective11.isalpha() is False:
         print(colored(
@@ -87,19 +87,19 @@ def madlibs02():
     print(
         colored("Going to the doctor")
     )
-    adjective21 = input(colored("An adjective: ", "blue", attrs=["bold"]))
-    adjective22 = input(colored("An adjective: ", "blue", attrs=["bold"]))
-    adjective23 = input(colored("Another adjective: ", "blue", attrs=["bold"]))
-    adjective24 = input(colored("Adjective please: ", "blue", attrs=["bold"]))
-    adjective25 = input(colored("Adjective again: ", "blue", attrs=["bold"]))
-    place11 = input(colored("A place: ", "blue", attrs=["bold"]))
-    pieceofcloth21 = input(colored("Some clothing: ", "blue", attrs=["bold"]))
-    bodypart21 = input(colored("a body part: ", "blue", attrs=["bold"]))
-    bodypart22 = input(colored("another body part: ", "blue", attrs=["bold"]))
-    bodypart23 = input(colored("a third body part: ", "blue", attrs=["bold"]))
-    noun21 = input(colored("a noun: ", "blue", attrs=["bold"]))
-    noun22 = input(colored("a second noun: ", "blue", attrs=["bold"]))
-    place22 = input(colored("another place: ", "blue", attrs=["bold"]))
+    adjective21 = input(colored("An adjective:\n", "blue", attrs=["bold"]))
+    adjective22 = input(colored("An adjective:\n", "blue", attrs=["bold"]))
+    adjective23 = input(colored("Another adjective:\n", "blue", attrs=["bold"]))
+    adjective24 = input(colored("Adjective please:\n", "blue", attrs=["bold"]))
+    adjective25 = input(colored("Adjective again:\n", "blue", attrs=["bold"]))
+    place11 = input(colored("A place:\n", "blue", attrs=["bold"]))
+    pieceofcloth21 = input(colored("Some clothing:\n", "blue", attrs=["bold"]))
+    bodypart21 = input(colored("a body part:\n", "blue", attrs=["bold"]))
+    bodypart22 = input(colored("another body part:\n", "blue", attrs=["bold"]))
+    bodypart23 = input(colored("a third body part:\n", "blue", attrs=["bold"]))
+    noun21 = input(colored("a noun:\n", "blue", attrs=["bold"]))
+    noun22 = input(colored("a second noun:\n", "blue", attrs=["bold"]))
+    place22 = input(colored("another place:\n", "blue", attrs=["bold"]))
 
     if adjective21.isalpha() is False:
         print(colored(
@@ -177,15 +177,15 @@ def madlibs03():
     print(
         colored("Bats are so cool.")
     )
-    color31 = input(colored("A color: ", "blue", attrs=["bold"]))
-    adjective31 = input(colored("An adjective: ", "blue", attrs=["bold"]))
-    time31 = input(colored("A time of day: ", "blue", attrs=["bold"]))
-    adjective32 = input(colored("Second adjective: ", "blue", attrs=["bold"]))
-    place31 = input(colored("A place: ", "blue", attrs=["bold"]))
-    food31 = input(colored("Food: ", "blue", attrs=["bold"]))
-    food32 = input(colored("Some more food: ", "blue", attrs=["bold"]))
-    verb31 = input(colored("A verb: ", "blue", attrs=["bold"]))
-    noun31 = input(colored("A noun: ", "blue", attrs=["bold"]))
+    color31 = input(colored("A color:\n", "blue", attrs=["bold"]))
+    adjective31 = input(colored("An adjective:\n", "blue", attrs=["bold"]))
+    time31 = input(colored("A time of day:\n", "blue", attrs=["bold"]))
+    adjective32 = input(colored("Second adjective:\n", "blue", attrs=["bold"]))
+    place31 = input(colored("A place:\n", "blue", attrs=["bold"]))
+    food31 = input(colored("Food:\n", "blue", attrs=["bold"]))
+    food32 = input(colored("Some more food:\n", "blue", attrs=["bold"]))
+    verb31 = input(colored("A verb:\n", "blue", attrs=["bold"]))
+    noun31 = input(colored("A noun:\n", "blue", attrs=["bold"]))
 
     if color31.isalpha() is False:
         print(colored(
@@ -237,7 +237,7 @@ def madlibs03():
 
 def main_choice():
     selection = int(input(colored(
-        "select Madlibs theme: ", "blue", attrs=["reverse", "blink"]
+        "select your theme:\n", "blue", attrs=["reverse", "blink"]
         )))
 
     """
