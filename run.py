@@ -23,6 +23,21 @@ def opening_function():
         "magenta", attrs=["bold"]))
     main_choice()
 
+afirmative = "yes"
+
+def continue_game():
+        continue_quest = input("PLAY AGAIN?:\n")
+
+        if continue_quest == afirmative:
+            opening_function()
+        else:  
+            print(
+                colored(
+                    "Thank you for playing!",
+                    "blue", attrs=["reverse", "blink"]
+                    )
+            )
+    
 
 def madlibs01():
     """
@@ -85,6 +100,7 @@ def madlibs01():
             f"on the {noun12} provided.",
             "yellow", attrs=["bold"])
         )
+        continue_game()
 
 
 def madlibs02():
