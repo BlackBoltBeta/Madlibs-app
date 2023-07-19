@@ -121,35 +121,35 @@ def madlibs01():
             )
         )
 
-    if adjective11.isalpha() is False:
+    if not all(x.isalpha() or x.isspace() for x in adjective11):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif plural_nou11.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in plural_nou11):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif plural_nou12.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in plural_nou12):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif plural_nou13.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in plural_nou13):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif plural_nou14.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in plural_nou14):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif adverb11.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adverb11):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif noun11.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in noun11):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
-    elif noun12.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in noun12):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
@@ -242,55 +242,55 @@ def madlibs02():
         )
     )
 
-    if adjective21.isalpha() is False:
+    if not all(x.isalpha() or x.isspace() for x in adjective21):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif adjective22.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adjective22):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif adjective23.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adjective23):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif adjective24.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adjective24):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif adjective25.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adjective25):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif place21.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in place21):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif pieceofcloth21.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in pieceofcloth21):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif bodypart21.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in bodypart21):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif bodypart22.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in bodypart22):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif bodypart23.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in bodypart23):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif noun21.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in noun21):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif noun22.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in noun22):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
-    elif place22.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in place22):
         pprint(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
@@ -366,39 +366,39 @@ def madlibs03():
         )
     )
 
-    if color31.isalpha() is False:
+    if not all(x.isalpha() or x.isspace() for x in color31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif adjective31.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adjective31): 
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif time31.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in time31): 
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif adjective32.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in adjective32): 
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif place31.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in place31): 
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif food31.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in food31): 
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif food32.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in food32):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif verb31.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in verb31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif noun31.isalpha() is False:
+    elif not all(x.isalpha() or x.isspace() for x in noun31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
@@ -451,28 +451,28 @@ def madlibs04():
         )
     )
 
-    if adjective41.isalpha() is False:
+    if not all(x.isalpha() or x.isspace() for x in adjective41):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
-        madlibs03()
-    elif advedrb41.isalpha() is False:
+        madlibs04()
+    elif not all(x.isalpha() or x.isspace() for x in advedrb41):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
-        madlibs03()
-    elif adjective42.isalpha() is False:
+        madlibs04()
+    elif not all(x.isalpha() or x.isspace() for x in adjective42):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
-        madlibs03()
-    elif bodypart41.isalpha() is False:
+        madlibs04()
+    elif not all(x.isalpha() or x.isspace() for x in bodypart41):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
-        madlibs03()
-    elif bodypart42.isalpha() is False:
+        madlibs04()
+    elif not all(x.isalpha() or x.isspace() for x in bodypart42):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
-        madlibs03()
+        madlibs04()
     else:
-        madlibs3 = print(colored(
+        madlibs = print(colored(
             f"When some {adjective41} " +
             f"school students were asked what nursery " +
             f"rhymes popped {advedrb41} " +
