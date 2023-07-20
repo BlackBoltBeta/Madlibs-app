@@ -21,8 +21,8 @@ def opening_function():
             "Welcome to Llama Madlibs.\n" +
             "First select a theme for your mad libs, " +
             "and then fill out the prompts with random words.\n" +
-            "When the text is complete you can read it out loud!"
-            , "blue", attrs=["bold"]))
+            "When the text is complete you can read it out loud!",
+            "blue", attrs=["bold"]))
     print(colored(
         "Please select the theme of your madlibs:\n",
         "yellow", attrs=["bold"]))
@@ -143,7 +143,6 @@ def madlibs01():
             "Another noun:\n", "blue", attrs=["bold"]
             )
         )
-
 
     if (len(adjective11) == 0):
         print(colored(

@@ -7,7 +7,7 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
 ## User Goals
 
  - To have a simple word game that you can play with kids. It isn't too distracting and does help with basic grammar.
- - To get amused with a silly text for a short period of time.
+ - To get amused with a silly text for a short period of time.
 
 
 ## Features 
