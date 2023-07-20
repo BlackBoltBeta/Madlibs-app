@@ -18,7 +18,12 @@ def opening_function():
     This is the welcome message and the instructions
     """
     print(colored(
-        "Welcome to Random Madlibs.\n" +
+            "Welcome to Llama Madlibs.\n" +
+            "First select a theme for your mad libs, " +
+            "and then fill out the prompts with random words.\n" +
+            "When the text is complete you can read it out loud!"
+            , "blue", attrs=["bold"]))
+    print(colored(
         "Please select the theme of your madlibs:\n",
         "yellow", attrs=["bold"]))
     print(colored(
@@ -60,10 +65,10 @@ def restart_function():
         "magenta", attrs=["bold"]))
     print(colored(
         "Type 4 for Nursery Rhymes.\n",
-        "magenta", attrs=["bold"]))
+        "yellow", attrs=["bold"]))
     print(colored(
         "Type 5 for BIRTHDAY PARTY FUN!.\n",
-        "magenta", attrs=["bold"]))
+        "red", attrs=["bold"]))
     main_choice()
 
 
@@ -75,7 +80,7 @@ def continue_game():
     """
 
     continue_quest = input(colored(
-        "To play again please type 'yes':\n",
+        "To play again please type 'yes', any other key will end the game:\n",
         "magenta", attrs=["reverse", "blink"]
     ))
 
@@ -139,7 +144,40 @@ def madlibs01():
             )
         )
 
-    if not all(x.isalpha() or x.isspace() for x in adjective11):
+
+    if (len(adjective11) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(plural_nou11) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(plural_nou12) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(plural_nou13) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(plural_nou14) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(adverb11) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(noun11) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif (len(noun12) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs01()
+    elif not all(x.isalpha() or x.isspace() for x in adjective11):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs01()
@@ -260,7 +298,59 @@ def madlibs02():
         )
     )
 
-    if not all(x.isalpha() or x.isspace() for x in adjective21):
+    if (len(adjective21) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(adjective22) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(adjective23) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(adjective24) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(adjective25) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(place21) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(pieceofcloth21) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(bodypart21) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(bodypart22) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(bodypart23) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(noun21) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(noun22) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif (len(place22) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs02()
+    elif not all(x.isalpha() or x.isspace() for x in adjective21):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs02()
@@ -384,7 +474,43 @@ def madlibs03():
         )
     )
 
-    if not all(x.isalpha() or x.isspace() for x in color31):
+    if (len(color31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(adjective31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(time31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(adjective32) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(place31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(food31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(food32) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(verb31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif (len(noun31) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs03()
+    elif not all(x.isalpha() or x.isspace() for x in color31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
@@ -469,7 +595,27 @@ def madlibs04():
         )
     )
 
-    if not all(x.isalpha() or x.isspace() for x in adjective41):
+    if (len(adjective41) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs04()
+    elif (len(advedrb41) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs04()
+    elif (len(adjective42) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs04()
+    elif (len(bodypart41) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs04()
+    elif (len(bodypart42) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs04()
+    elif not all(x.isalpha() or x.isspace() for x in adjective41):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs04()
@@ -583,7 +729,59 @@ def madlibs05():
         )
     )
 
-    if not all(x.isalpha() or x.isspace() for x in pers_name51):
+    if (len(pers_name51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(noun51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(noun52) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(adjective51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(activity51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(verb51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(pers_name52) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(noun53) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(past_tense_verb51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(song_name51) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(adjective52) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(pers_name54) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif (len(activity52) == 0):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in pers_name51):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs05()
