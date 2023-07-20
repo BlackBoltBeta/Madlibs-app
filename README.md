@@ -4,9 +4,10 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
 
 ![Responsive Mockup](assets/readme-screenshots/responsive-mockup.png)
 
-## User Goals 
+## User Goals
 
- - To get amused with a silly text for a short period of time.
+ - To have a simple word game that you can play with kids. It isn't too distracting and does help with basic grammar.
+ - To get amused with a silly text for a short period of time.
 
 
 ## Features 
@@ -46,6 +47,7 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
 ### Things to improve:
 
 - At the moment,  every madlib is a separate function. So grouping them  and the word selections into an array might help to make the code less verbose.
+- The code is fairly extensive for what it does, and many elements are redundant or repetitive. This could have been done in a more nuanced way, but my original idea was beyond my ability.  Due to this, I have decided to write this project in the most simple and wide way possible to familiarize myself with what everything does and how it works, and to help me learn factoring more naturally and from the ground up.
 
 
 ## Technologies and libraries used
@@ -66,6 +68,13 @@ __Python libraries and api used__
 - Testing has been conducted continuously during the development process. Manual testing has been conducted by the author.
 
 ### Validator Testing 
+
+**TEST** | **ACTION** | **EXPECTATION** | **RESULT** 
+----------|----------|----------|----------
+Theme select	| Tested all options from 1 to 5 and not numericals	| To play the game when 1 to 5 and to print an error and loop back when not | Works as expected
+Word input	| input alphabetical symbols, numbers, spaces and empty | For it to accept alphabetical and spaces but to print an error and loop back otherwise. | Works as expected
+Filled out text | Playng the game | To print a filled out template literal | Works as expected
+Replay prompt | Type "yes" and anything else | On "yes" game will restart, on any other input the game will end | Works as expected
 
   - No errors were found. The code has been tested by using PEP8 CI Python Linter https://pep8ci.herokuapp.com/#
 

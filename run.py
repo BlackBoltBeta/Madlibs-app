@@ -2,7 +2,7 @@ import sys
 
 from termcolor import colored, cprint
 
-# This variable works with the continue_game function
+# A few variables
 afirm = "yes"
 
 theme_one = "1"
