@@ -69,7 +69,7 @@ __Python libraries and api used__
 
   - No errors were found. The code has been tested by using PEP8 CI Python Linter https://pep8ci.herokuapp.com/#
 
-![pep8](assets/images/pep8.png)
+![pep8](assets/readme-screenshots/pep8.png)
 
 ## Development and Deployment
  
