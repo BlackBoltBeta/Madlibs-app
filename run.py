@@ -2,7 +2,7 @@ import sys
 
 from termcolor import colored, cprint
 
- # This variable works with the continue_game function
+# This variable works with the continue_game function
 afirm = "yes"
 
 theme_one = "1"
@@ -32,10 +32,10 @@ def opening_function():
         "magenta", attrs=["bold"]))
     print(colored(
         "Type 4 for Nursery Rhymes.\n",
-        "magenta", attrs=["bold"]))
+        "yellow", attrs=["bold"]))
     print(colored(
         "Type 5 for BIRTHDAY PARTY FUN!.\n",
-        "magenta", attrs=["bold"]))
+        "red", attrs=["bold"]))
     main_choice()
 
 
@@ -81,14 +81,14 @@ def continue_game():
 
     if continue_quest == afirm:
         restart_function()
-    else:  
+    else:
         print(
             colored(
                 "Thank you for playing!",
                 "blue", attrs=["reverse", "blink"]
                 )
         )
-    
+
 
 def madlibs01():
     """
@@ -256,7 +256,7 @@ def madlibs02():
         )
     place22 = input(
         colored(
-        "another place:\n", "blue", attrs=["bold"]
+            "another place:\n", "blue", attrs=["bold"]
         )
     )
 
@@ -388,23 +388,23 @@ def madlibs03():
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif not all(x.isalpha() or x.isspace() for x in adjective31): 
+    elif not all(x.isalpha() or x.isspace() for x in adjective31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif not all(x.isalpha() or x.isspace() for x in time31): 
+    elif not all(x.isalpha() or x.isspace() for x in time31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif not all(x.isalpha() or x.isspace() for x in adjective32): 
+    elif not all(x.isalpha() or x.isspace() for x in adjective32):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif not all(x.isalpha() or x.isspace() for x in place31): 
+    elif not all(x.isalpha() or x.isspace() for x in place31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
-    elif not all(x.isalpha() or x.isspace() for x in food31): 
+    elif not all(x.isalpha() or x.isspace() for x in food31):
         print(colored(
             "Please make sure you type words only.", "red", attrs=["bold"]))
         madlibs03()
@@ -445,7 +445,7 @@ def madlibs04():
 
     adjective41 = input(
         colored(
-            "An adjective:\n","light_yellow", attrs=["bold"]
+            "An adjective:\n", "light_yellow", attrs=["bold"]
         )
     )
     advedrb41 = input(
@@ -514,7 +514,7 @@ def madlibs05():
 
     pers_name51 = input(
         colored(
-            "A person's name:\n","light_yellow", attrs=["bold"]
+            "A person's name:\n", "light_yellow", attrs=["bold"]
         )
     )
     noun51 = input(
@@ -539,47 +539,47 @@ def madlibs05():
     )
     pers_name52 = input(
         colored(
-            "A peron's name:\n","light_yellow", attrs=["bold"]
+            "A peron's name:\n", "light_yellow", attrs=["bold"]
         )
     )
     noun52 = input(
         colored(
-            "A noun:\n","light_yellow", attrs=["bold"]
+            "A noun:\n", "light_yellow", attrs=["bold"]
         )
     )
     pers_name53 = input(
         colored(
-            "A person's name:\n","light_yellow", attrs=["bold"]
+            "A person's name:\n", "light_yellow", attrs=["bold"]
         )
     )
     noun53 = input(
         colored(
-            "A noun:\n","light_yellow", attrs=["bold"]
+            "A noun:\n", "light_yellow", attrs=["bold"]
         )
     )
     past_tense_verb51 = input(
         colored(
-            "A past tense verb:\n","light_yellow", attrs=["bold"]
+            "A past tense verb:\n", "light_yellow", attrs=["bold"]
         )
     )
     song_name51 = input(
         colored(
-            "The name of a song:\n","light_yellow", attrs=["bold"]
+            "The name of a song:\n", "light_yellow", attrs=["bold"]
         )
     )
     adjective52 = input(
         colored(
-            "An adjective:\n","light_yellow", attrs=["bold"]
+            "An adjective:\n", "light_yellow", attrs=["bold"]
         )
     )
     pers_name54 = input(
         colored(
-            "A perosn's name:\n","light_yellow", attrs=["bold"]
+            "A perosn's name:\n", "light_yellow", attrs=["bold"]
         )
     )
     activity52 = input(
         colored(
-            "An activity:\n","light_yellow", attrs=["bold"]
+            "An activity:\n", "light_yellow", attrs=["bold"]
         )
     )
 
@@ -657,7 +657,6 @@ def madlibs05():
             "yellow", attrs=["bold"])
         )
         continue_game()
-
 
 
 def main_choice():
