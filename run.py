@@ -24,6 +24,12 @@ def opening_function():
     print(colored(
         "Type 3 for Bats are so cool.\n",
         "magenta", attrs=["bold"]))
+    print(colored(
+        "Type 4 for Nursery Rhymes.\n",
+        "magenta", attrs=["bold"]))
+    print(colored(
+        "Type 5 for BIRTHDAY PARTY FUN!.\n",
+        "magenta", attrs=["bold"]))
     main_choice()
 
 
@@ -45,6 +51,12 @@ def restart_function():
         "blue", attrs=["bold"]))
     print(colored(
         "Type 3 for Bats are so cool.\n",
+        "magenta", attrs=["bold"]))
+        print(colored(
+        "Type 4 for Nursery Rhymes.\n",
+        "magenta", attrs=["bold"]))
+    print(colored(
+        "Type 5 for BIRTHDAY PARTY FUN!.\n",
         "magenta", attrs=["bold"]))
     main_choice()
 
@@ -482,6 +494,164 @@ def madlibs04():
             "yellow", attrs=["bold"])
         )
         continue_game()
+
+
+def madlibs05():
+
+    """
+    Madlibs theme number 5
+    """
+    print(
+        colored("BIRTHDAY PARTY FUN!.",
+                "light_yellow", attrs=["bold"])
+    )
+
+    pers_name51 = input(
+        colored(
+            "A person's name:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    noun51 = input(
+        colored(
+            "An noun:\n", "light_yellow", attrs=["bold"]
+        )
+    )
+    adjective51 = input(
+        colored(
+            "An adjective:\n", "light_yellow", attrs=["bold"]
+        )
+    )
+    activity51 = input(
+        colored(
+            "An activity:\n", "light_yellow", attrs=["bold"]
+        )
+    )
+    verb51 = input(
+        colored(
+            "A verb:\n", "light_yellow", attrs=["bold"]
+        )
+    )
+    pers_name52 = input(
+        colored(
+            "A peron's name:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    noun52 = input(
+        colored(
+            "A noun:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    pers_name53 = input(
+        colored(
+            "A person's name:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    noun53 = input(
+        colored(
+            "A noun:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    past_tense_verb51 = input(
+        colored(
+            "A past tense verb:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    song_name51 = input(
+        colored(
+            "The name of a song:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    adjective52 = input(
+        colored(
+            "An adjective:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    pers_name54 = input(
+        colored(
+            "A perosn's name:\n","light_yellow", attrs=["bold"]
+        )
+    )
+    activity52 = input(
+        colored(
+            "An activity:\n","light_yellow", attrs=["bold"]
+        )
+    )
+
+    if not all(x.isalpha() or x.isspace() for x in pers_name51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in noun51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in adjective51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in activity51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in verb51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in pers_name52):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in noun52):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in pers_name53):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in noun53):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in past_tense_verb51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in song_name51):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in adjective52):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in pers_name54):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    elif not all(x.isalpha() or x.isspace() for x in activity52):
+        print(colored(
+            "Please make sure you type words only.", "red", attrs=["bold"]))
+        madlibs05()
+    else:
+        madlibs = print(colored(
+            f"Yesterday I went to  {pers_name51}'s" +
+            f"birthday party. I got them a {noun51}. " +
+            f"The party was {adjective51}. " +
+            f"We started by playing {activity51}" +
+            f"and then there was a {verb51} party. " +
+            f"Lots of my friends were there" +
+            f"but I mostly hung out with {pers_name52}. " +
+            f"We talked about {noun52} and " +
+            f"how our friend {pers_name53} is a {noun53}. " +
+            f"During cake everyone {past_tense_verb51}" +
+            f"and sang  {song_name51}. I had a {adjective52}" +
+            f"time at the party and enjoyed celebrating {pers_name54}. " +
+            f"He/she is such a {activity52} friend.",
+            "yellow", attrs=["bold"])
+        )
+        continue_game()
+
 
 
 def main_choice():
