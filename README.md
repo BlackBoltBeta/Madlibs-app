@@ -2,7 +2,7 @@
 
 This is a simple app to play Mad Libs with. It welcomes the user with a straightforward message on how to play and then presents the user with several themes to choose from. It is intended for children as a simple pastime.
 
-![Responsive Mockup](assets/images/responsive-mockup.png)
+![Responsive Mockup](assets/readme-screenshots/responsive-mockup.png)
 
 ## User Goals 
 
@@ -17,7 +17,7 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
 
   - This section shows what  themes the user can choose from and what he needs to input to access them.
 
-![main](assets/images/play-game.png)
+![main](assets/readme-screenshots/play-game.png)
 
 - __Themes__
 
