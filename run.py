@@ -5,6 +5,12 @@ from termcolor import colored, cprint
  # This variable works with the continue_game function
 afirm = "yes"
 
+theme_one = "1"
+theme_two = "2"
+theme_three = "3"
+theme_four = "4"
+theme_five = "5"
+
 
 def opening_function():
 
@@ -52,7 +58,7 @@ def restart_function():
     print(colored(
         "Type 3 for Bats are so cool.\n",
         "magenta", attrs=["bold"]))
-        print(colored(
+    print(colored(
         "Type 4 for Nursery Rhymes.\n",
         "magenta", attrs=["bold"]))
     print(colored(
@@ -655,25 +661,25 @@ def madlibs05():
 
 
 def main_choice():
-    selection = int(input(colored(
-        "select your theme:\n", "blue", attrs=["reverse", "blink"]
-        )))
+    selection = input(
+        colored(
+            "select your theme:\n", "blue", attrs=["reverse", "blink"]
+        )
+    )
 
     """
     This function allows the user to select a theme
     """
-    if selection == 1:
+    if selection is theme_one:
         madlibs01()
-    elif selection == 2:
+    elif selection is theme_two:
         madlibs02()
-    elif selection == 3:
+    elif selection is theme_three:
         madlibs03()
-    elif selection == 4:
+    elif selection is theme_four:
         madlibs04()
-    elif selection == 5:
+    elif selection is theme_five:
         madlibs05()
-    elif selection == 6:
-        madlibs06()
     else:
         print(
             colored("Invalid selection, please try again", "green")
