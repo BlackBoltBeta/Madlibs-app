@@ -2,7 +2,7 @@
 
 This is a simple app to play Mad Libs with. It welcomes the user with a straightforward message on how to play and then presents the user with several themes to choose from. It is intended for children as a simple pastime.
 
-![Responsive Mockup](assets/images/responsive-screens.png)
+![Responsive Mockup](assets/images/responsive-mockup.png)
 
 ## User Goals 
 
@@ -17,7 +17,7 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
 
   - This section shows what  themes the user can choose from and what he needs to input to access them.
 
-![dice-select]
+![main](assets/images/play-game.png)
 
 - __Themes__
 
@@ -25,14 +25,12 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
    - Instructions for the babysitter
    - Going to the doctor
    - Bats are so cool.
-
-![giant dice]
+   - Nursery Rhymes.
+   - BIRTHDAY PARTY FUN!
 
 - __Different Madlibs__
 
   - After being asked for a few different words, the user will be presented with a filled-out Mad Libs to read out loud.
-
-![Theme change]
 
 ## Design diagram 
 
@@ -44,7 +42,6 @@ This is a simple app to play Mad Libs with. It welcomes the user with a straight
    - A separate function for each Madlibs. These consist of a group of inputs to fill out a template literal.
    - A boolean if statement to protect the input from non-alphabetical characters.
 
-![giant dice]
 
 ### Things to improve:
 
@@ -71,6 +68,8 @@ __Python libraries and api used__
 ### Validator Testing 
 
   - No errors were found. The code has been tested by using PEP8 CI Python Linter https://pep8ci.herokuapp.com/#
+
+![pep8](assets/images/pep8.png)
 
 ## Development and Deployment
  
@@ -106,7 +105,7 @@ command: git add . && git commit -m "Deploy to Heroku via CLI"
 Push to both github and heroku
 command: git push origin main
 command: git push heroku main
-After those steps were taken the application was deployed at the following link: AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+After those steps were taken the application was deployed at the following link: https://llamamadlibs-9afa07ffadcc.herokuapp.com/
 
 ## Credits 
 

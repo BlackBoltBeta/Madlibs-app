@@ -84,7 +84,7 @@ def continue_game():
         "magenta", attrs=["reverse", "blink"]
     ))
 
-    if continue_quest == afirm:
+    if continue_quest.lower() == afirm:
         restart_function()
     else:
         print(
